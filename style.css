@@ -411,7 +411,8 @@ body {
   }
 
   .fourth h2 {
-    width: 98%;
+    width: 96%;
+    margin:0 auto;
     height: auto;
   }
   div .star {
@@ -503,7 +504,8 @@ body {
   }
 
   .fourth h2 {
-    width: 100%;
+    width: 98%;
+    margin:0 auto;
     height: auto;
   }
   div .star {
