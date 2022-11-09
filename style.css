@@ -628,3 +628,8 @@ body {
     min-width: 50%;
   }
 }
+@media only screen and (max-width:790px){
+    .fourth h2{
+      font-size:15px;
+  }
+}
