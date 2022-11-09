@@ -1,0 +1,628 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* top */
+body {
+  background-color: rgb(245, 245, 245);
+}
+.first {
+  background-color: rgb(27, 28, 29);
+  width: 100%;
+}
+
+.first .top .header {
+  background-color: rgb(27, 28, 29);
+  width: 70%;
+  margin: 0 auto;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first .top .home {
+  background-color: rgb(27, 28, 29);
+  margin: 0 auto;
+  width: 65%;
+}
+
+.top .home ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.top .home ul {
+  padding-top: 25px;
+}
+
+.top .home ul li a {
+  text-decoration: none;
+  color: rgb(190, 186, 186);
+}
+
+/* second */
+
+.second {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 650px;
+}
+
+.poet {
+  height: 650px;
+  width: 70%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.poet .container-left {
+  background-color: whitesmoke;
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+}
+
+.poet .container-right {
+  background-color: whitesmoke;
+  width: 50%;
+  float: right;
+  height: 500px;
+}
+
+.poet .container-right img {
+  max-width: 100%;
+  height: 450px;
+  margin-left: 200px;
+  margin-top: 130px;
+  border-radius: 10px;
+}
+
+/* thired */
+
+.thired {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.thired .link {
+  background-color: whitesmoke;
+  width: 70%;
+  margin: 0 auto;
+  height: 120px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.thired .link ul li {
+  display: inline;
+  padding: 10px 20px;
+  margin: 1px;
+  border-radius: 3px;
+}
+
+.thired .link ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.thired .link ul {
+  padding-bottom: 180px;
+}
+
+/* fourth */
+
+.fourth {
+  background-color: rgb(29, 28, 28);
+  width: 100%;
+  margin-bottom: 85px;
+}
+
+.fourth h2 {
+  background-color: rgb(29, 28, 28);
+  width: 70%;
+  margin: 0 auto;
+  height: 150px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fifth */
+.fifth {
+  background-color: whitesmoke;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.fifth .big-box {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.fifth .big-box .row .col-sm-3 .card {
+  border: 1px solid rgb(62, 62, 61);
+  border-radius: 5px;
+}
+
+.fifth .big-box .row .col-sm-3 .card .card-body .card-title {
+  font-weight: bold;
+}
+
+.fifth .big-box .row .col-sm-3 .card .card-body .card-year {
+  color: rgb(122, 123, 123);
+}
+
+.fifth .big-box .row .col-sm-3 .card .card-body .card-text {
+  color: rgb(81, 81, 82);
+}
+
+/* star awards */
+
+.star .line h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.star .line h1:before,
+.star .line h1:after {
+  background-color: rgb(81, 79, 79);
+  content: "";
+  display: inline-block;
+  height: 0.3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.star .line h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.star .line h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* sixth */
+
+.sixth {
+  width: 100%;
+  height: 550px;
+}
+
+.sixth .sixth-outer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.sixth .sixth-outer .left {
+  background-color: whitesmoke;
+  width: 48.5%;
+  float: left;
+  height: 200px;
+}
+
+.sixth .sixth-outer .right {
+  background-color: whitesmoke;
+  width: 48.5%;
+  float: right;
+  height: 200px;
+}
+
+/* poetry line */
+.sixth .sixth-outer .left .star {
+  margin-top: 100px;
+}
+
+.sixth .sixth-outer .left .star .line h3 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.sixth .sixth-outer .left .star .line h3:before,
+.sixth .sixth-outer .left .star .line h3:after {
+  background-color: rgb(81, 79, 79);
+  content: "";
+  display: inline-block;
+  height: 0.8px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.sixth .sixth-outer .left .star .line h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.sixth .sixth-outer .left .star .line h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* poetry words */
+.sixth .sixth-outer .left .star .list {
+  margin: 60px 0;
+}
+
+.sixth .sixth-outer .left .star .list ul {
+  padding-left: 30px;
+}
+
+.sixth .sixth-outer .left .star .list ul li .words {
+  color: rgb(89, 89, 89);
+}
+
+/* poems line */
+.sixth .sixth-outer .right .star {
+  margin-top: 100px;
+}
+
+.sixth .sixth-outer .right .star .line h3 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.sixth .sixth-outer .right .star .line h3:before,
+.sixth .sixth-outer .right .star .line h3:after {
+  background-color: rgb(81, 79, 79);
+  content: "";
+  display: inline-block;
+  height: 0.8px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.sixth .sixth-outer .right .star .line h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.sixth .sixth-outer .right .star .line h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* poem words */
+.sixth .sixth-outer .right .star .list {
+  margin: 60px 0;
+}
+
+.sixth .sixth-outer .right .star .list ul {
+  padding-left: 30px;
+}
+
+.sixth .sixth-outer .right .star .list ul li .words {
+  color: rgb(89, 89, 89);
+}
+
+/* last */
+
+.last {
+  width: 100%;
+  background-color: black;
+  height: 220px;
+}
+
+.last .last-outer {
+  width: 70%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.last .last-outer .left {
+  color: white;
+  background-color: black;
+  width: 33%;
+  float: left;
+  margin-top: 55px;
+}
+
+.last .last-outer .left .contant {
+  border-right: 1px solid rgb(83, 83, 83);
+  height: 130px;
+}
+
+.last .last-outer .mid {
+  color: white;
+  background-color: black;
+  width: 34%;
+  float: left;
+  margin-top: 55px;
+}
+
+.last .last-outer .mid .contant {
+  border-right: 1px solid rgb(83, 83, 83);
+  padding-left: 18px;
+  height: 130px;
+}
+
+.last .last-outer .right {
+  padding-left: 18px;
+  color: white;
+  background-color: black;
+  width: 33%;
+  float: left;
+  margin-top: 55px;
+}
+
+@media only screen and (max-width: 440px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  .poet {
+    width: 95%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+  }
+  .poet .container-left {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .poet .container-right {
+    width: 100%;
+  }
+  .poet .container-right img {
+    width: 100%;
+    height: 360px;
+    margin-left: 0%;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .thired {
+    background-color: whitesmoke;
+    width: 100%;
+  }
+
+  .thired .link {
+    width: 95%;
+    padding-top: 40px;
+  }
+
+  .thired .link ul li {
+    padding: 5px 5px;
+    margin: 1px;
+    border-radius: 4px;
+  }
+  .thired .link ul {
+    padding-bottom: 40px;
+  }
+  .fourth {
+    margin-bottom: 40px;
+    padding: 22px 0px;
+  }
+
+  .fourth h2 {
+    width: 98%;
+    height: auto;
+  }
+  div .star {
+    margin: 0px !important;
+  }
+  .fifth {
+    padding-top: 0px;
+  }
+
+  .fifth .big-box {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  div .col-sm-3 {
+    padding-bottom: 13px;
+  }
+  .sixth {
+    width: 100%;
+  }
+
+  .sixth .sixth-outer {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .sixth .sixth-outer .left {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+  }
+
+  .sixth .sixth-outer .right {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+  }
+  .sixth .sixth-outer .left .star .list,
+  .sixth .sixth-outer .right .star .list {
+    margin: 20px 0;
+  }
+
+  .first .top .header {
+    height: 150px;
+  }
+}
+/*  */
+@media only screen and (max-width: 1350px) {
+  .poet {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .poet .container-left {
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .poet .container-right {
+    width: 100%;
+    text-align: center;
+  }
+  .poet .container-right img {
+    max-width: 100%;
+    height: 450px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .thired {
+    width: 100%;
+  }
+
+  .thired .link {
+    width: 85%;
+    padding-top: 35px;
+  }
+
+  .thired .link ul li {
+    padding: 5px 5px;
+    margin: 1px;
+    border-radius: 4px;
+  }
+  .thired .link ul {
+    padding-bottom: 40px;
+  }
+  .fourth {
+    margin-bottom: 40px;
+    padding: 22px 0px;
+  }
+
+  .fourth h2 {
+    width: 100%;
+    height: auto;
+  }
+  div .star {
+    margin: 0px !important;
+  }
+  .fifth {
+    padding-top: 0px;
+  }
+
+  .fifth .big-box {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  div .col-sm-3 {
+    padding-bottom: 13px;
+  }
+  .sixth {
+    width: 100%;
+  }
+
+  .sixth .sixth-outer {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .sixth .sixth-outer .left {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+  }
+
+  .sixth .sixth-outer .right {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+  }
+  .sixth .sixth-outer .left .star .list,
+  .sixth .sixth-outer .right .star .list {
+    margin: 20px 0;
+  }
+  .last {
+    width: 100%;
+    background-color: black;
+    height: auto;
+    font-size: 15px;
+  }
+  .last p {
+    margin: 4px;
+  }
+  .last .last-outer {
+    width: 100%;
+  }
+
+  .last .last-outer .left {
+    width: 30%;
+    float: left;
+    margin-top: 0px;
+    padding-left: 20px;
+    border-bottom: 0.5px solid rgb(53, 53, 53);
+  }
+
+  .last .last-outer .left .contant,
+  .last .last-outer .mid .contant,
+  .last .last-outer .right .contant {
+    height: 125px;
+  }
+
+  .last .last-outer .mid {
+    width: 30%;
+    float: left;
+    margin-top: 0px;
+    border-bottom: 0.5px solid rgb(53, 53, 53);
+  }
+  .last .last-outer .right {
+    width: 40%;
+    float: left;
+    margin-top: 0px;
+  }
+  .first .top .header {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .last {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+  }
+  .last p {
+    margin: 4px;
+  }
+  .last .last-outer {
+    width: 100%;
+  }
+
+  .last .last-outer .left {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .last .contant {
+    height: auto !important;
+  }
+  .last .last-outer .mid {
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 0.5px solid rgb(53, 53, 53);
+  }
+  .last .last-outer .right {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .fifth .big-box .row {
+    text-align: center;
+  }
+
+  div.col-sm-3 {
+    min-width: 50%;
+  }
+}
